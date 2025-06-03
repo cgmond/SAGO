@@ -1,4 +1,4 @@
-//This is a test push to Github v1.3 19:06 6/1/25
+//This is a test push to Github v1.4
 #property copyright "Copyright 2025, MetaQuotes Ltd."
 #property link      "https://www.mql5.com"
 #property version   "1.00"
@@ -16,7 +16,7 @@ COrderInfo        ord;
       
       input double   RiskPercent    =  1;                         // Risk as % of Trading Capital
       input int      InpMagic = 3333;                             // EA identification no.
-      input string   TradeComment   = "SAGO sakalam";             //Trade Comments 
+      input string   TradeComment   = "PSAR Hedge by CGMFX";      //Trade Comments 
 
       double handlePSAR;
 
